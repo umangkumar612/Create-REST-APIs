@@ -25,7 +25,7 @@ app
     return res.json({ status: "pending" }); // Later: update logic
   })
   .delete((req, res) => {
-    return res.json({ status: "pending" }); // Later: deletion logic
+    return res.json({ status: "pending" }); // Later: deletion logi
   });
 app.post('/api/users',(req, res) => {
     const body = req.body;
